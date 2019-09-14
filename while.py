@@ -5,7 +5,7 @@ while running:
     guess = int(input('Введите целое число : '))
     if guess == number:
         print('Поздравляю, вы угадали.')
-        running = False # это останавливает цикл while
+        running = False  # это останавливает цикл while
     elif guess < number:
         print('Нет, загаданное число немного больше этого')
     else:
